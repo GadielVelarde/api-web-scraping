@@ -3,12 +3,12 @@ service: api-web-scraping
 
 provider:
   name: aws
-  runtime: python3.12
+  runtime: python3.13
   # Default memory size for functions (default: 1024MB)
   memorySize: 1024
   timeout: 30
   iam:
-    role: arn:aws:iam::692614634256:role/LabRole
+    role: arn:aws:iam::553924156677:role/LabRole
 
 functions:
   scrape_table:
